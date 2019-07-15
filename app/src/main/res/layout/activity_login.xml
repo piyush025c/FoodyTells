@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#d9ffb3">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/foodytells"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+        android:alpha="0.7"
+        android:textColor="#ff0000" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/usernameHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Email Address"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:id="@+id/username"
+        android:background="#ffffb3"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Enter Password"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:id="@+id/password"
+        android:background="#ffffb3"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Remember me."
+        android:layout_gravity="center"
+        android:textColor="#bf8040"
+        android:id="@+id/checkBoxRememberMe"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="SUBMIT"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:background="@drawable/roundbutton"
+        android:textColor="#ffffff"
+        android:id="@+id/submit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="New User? Register now."
+        android:textColor="#0000FF"
+        android:id="@+id/newuser" />
+
+
+
+</LinearLayout>

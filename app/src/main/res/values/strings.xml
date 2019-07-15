@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Foody Tells</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="about">Foody Tells is a fast food company which believes in total customer satisfaction. We believe that every individual is unique and hence
+everyone has their own preferences and taste. We as a company respect that and as a result the company helps its customers to design their
+own custom meal through the app. In a way we try to develop a virtual kitchen between the chief and the client so that the client gets
+his meal according to his taste.</string>
+
+    <string name="condition">This app is meant only to be an educational purpose project. Hence it does not deliver the product. However, this is a fully functional app which helps
+to develop virtual connection between the chief and the client. This app is meant only for education purpose and is not business oriented.</string>
+
+    <string name="me">I am a 21 year old Android developer currently pursuing Computer Science Engineering at LNMIIT Jaipur. A desire to make usable products, learning
+technologies and a childhood love for maths makes me work harder for my goals in the fast developing world of Computer Science.</string>
+
+</resources>

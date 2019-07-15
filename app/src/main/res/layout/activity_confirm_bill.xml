@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmBill"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffcc"
+        android:padding="5dp"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORDER SUMMARY"
+            android:textColor="#996633"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/summary"
+            android:textColor="#996633"
+            android:scrollbars="vertical"
+            android:layout_weight="0.25"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="40dp"
+            android:id="@+id/total"
+            android:textColor="#996633"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="0.75"/>
+
+
+        </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#bf8040"
+        android:padding="5dp"
+        android:layout_weight="0.75">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirmOrder"
+            android:text="Confirm "
+            android:layout_marginTop="300dp"
+            android:background="@drawable/roundbutton3"
+            android:padding="5dp"
+            android:textColor="#000"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:text="Cancel"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/roundbutton3"
+            android:padding="5dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

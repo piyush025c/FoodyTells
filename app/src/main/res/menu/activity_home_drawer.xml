@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g1">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/book"
+            android:title="About Us" />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g2">
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/phone"
+            android:title="Contact Us" />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g3">
+        <item
+            android:id="@+id/nav_condition"
+            android:icon="@drawable/shield"
+            android:title="Terms and Conditions" />
+
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g4">
+        <item
+            android:id="@+id/nav_developer"
+            android:icon="@drawable/hammer"
+            android:title="About the Developer" />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g5">
+
+        <item android:id="@+id/nav_rate"
+            android:icon="@drawable/badge"
+            android:title="Rate Us"/>
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Crust"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#ffffcc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Crust:"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#996633"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rg1"
+        android:orientation="vertical"
+        android:background="#d9b18c"
+        android:padding="10dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Normal Pan"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:id="@+id/normalPan"
+            android:textColor="#4d3319"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thin Crust"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/thin"
+            android:textColor="#4d3319"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deep Crust"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/deep"
+            android:textColor="#4d3319"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cheese filled Crust"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/cheeseFill"
+            android:textColor="#4d3319"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stuffed Crust"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/stuffed"
+            android:textColor="#4d3319"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:id="@+id/next1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/roundbutton1"
+        android:textColor="#ffffcc"/>
+
+</LinearLayout>

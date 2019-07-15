@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.piyush025.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Developer"></activity>
+        <activity android:name=".Condition" />
+        <activity android:name=".Contact" />
+        <activity android:name=".About" />
+        <activity android:name=".Placed" />
+        <activity android:name=".ConfirmBill" />
+        <activity android:name=".Address" />
+        <activity android:name=".Miscellaneous3" />
+        <activity android:name=".Miscellaneous2" />
+        <activity android:name=".Sauces" />
+        <activity android:name=".Bread" />
+        <activity android:name=".Addon" />
+        <activity android:name=".Miscellaneous1" />
+        <activity android:name=".Vegetables" />
+        <activity android:name=".Crust" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

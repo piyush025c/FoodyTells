@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffffcc">
+  <!--  android:background="#d9ffb3">-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What would you like to Our Chief to make for you?"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:textColor="#b30000"
+        android:layout_marginTop="30dp"
+        android:maxLines="1"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instruct our Chief to design your meal!"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#996600"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#cc9900"
+        android:padding="10dp">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "822528629270",
+    "firebase_url": "https://foodytells.firebaseio.com",
+    "project_id": "foodytells",
+    "storage_bucket": "foodytells.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822528629270:android:53fe8aec25a7384e",
+        "android_client_info": {
+          "package_name": "com.piyush025.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822528629270-i6ggq6mckg8130aehfr77e18idtcmmrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.piyush025.myapplication",
+            "certificate_hash": "2f31c3c43f36a7d1c31f4361fd6400ac787b763c"
+          }
+        },
+        {
+          "client_id": "822528629270-0cqrdkugnuouot8r1ep3jupaq717k98s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Np26fT4ErDCtno5T0F4gbS3gDoY-9TM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822528629270-0cqrdkugnuouot8r1ep3jupaq717k98s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

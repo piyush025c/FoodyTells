@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Developer"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#660000"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wood1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/back_button"
+            android:id="@+id/back4"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/piyush"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:text="Piyush Chowdhary"
+            android:gravity="center"
+            android:textColor="#b30000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="@string/me"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#476b6b"
+            android:gravity="center"
+            android:text="Email: 17ucs111@lnmiit.ac.in"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#476b6b"
+            android:gravity="center"
+            android:text="LinkedIn Profile: \n www.linkedin.com/in/piyush-chowdhary-023b87189"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
