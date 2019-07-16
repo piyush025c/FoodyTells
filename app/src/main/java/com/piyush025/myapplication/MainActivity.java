@@ -28,9 +28,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         progressBar=(ProgressBar)findViewById(R.id.progressBar);
-        progressBar.setMax(70);
+        progressBar.setMax(40);
 
-        final long period = 69;
+        final long period = 39;
         timer=new Timer();
         timer.schedule(new TimerTask() {
             @Override
