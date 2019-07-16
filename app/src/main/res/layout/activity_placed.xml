@@ -34,7 +34,7 @@
         android:layout_marginTop="40dp"
         android:textSize="18sp"
         android:layout_gravity="center"
-        android:text="Rate your order experiance."
+        android:text="Rate your order experience."
         android:textStyle="bold"/>
 
     <RatingBar

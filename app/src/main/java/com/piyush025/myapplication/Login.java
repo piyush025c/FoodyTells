@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Patterns;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -84,8 +85,8 @@ public class Login extends AppCompatActivity {
 
 
         //checking if email and passwords are empty
-        if(TextUtils.isEmpty(email)){
-            Toast.makeText(this,"Please enter email",Toast.LENGTH_LONG).show();
+        if(Patterns.EMAIL_ADDRESS.matcher(email).matches()==false){
+            Toast.makeText(this,"Please enter a valid email",Toast.LENGTH_LONG).show();
             return;
         }
 

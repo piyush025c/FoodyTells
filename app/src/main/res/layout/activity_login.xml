@@ -14,7 +14,7 @@
         android:layout_height="120dp"
         android:src="@drawable/foodytells"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"

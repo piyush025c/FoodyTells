@@ -105,7 +105,7 @@ public class Registration extends AppCompatActivity {
                 mDay = c.get(Calendar.DAY_OF_MONTH);
 
 
-                DatePickerDialog datePickerDialog = new DatePickerDialog(Registration.this,
+                DatePickerDialog datePickerDialog = new DatePickerDialog(Registration.this,R.style.DialogTheme,
                         new DatePickerDialog.OnDateSetListener() {
 
                             @Override

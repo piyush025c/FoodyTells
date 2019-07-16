@@ -6,8 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".Registration"
     android:orientation="vertical"
-    android:padding="15dp"
-    android:background="#d9ffb3">
+    android:padding="10dp"
+    android:background="#d9ffb3"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +28,6 @@
         android:text="NEW REGISTRATION"
         android:textColor="#ff0000"
         android:alpha="0.7"
-        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         />
 
@@ -35,22 +35,20 @@
         android:id="@+id/input_layout_Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="10dp">
 
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Full Name"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:textSize="18sp"
             android:maxLines="1"
             android:id="@+id/name"
             android:background="#ffffb3"
-            android:paddingBottom="5dp"
-            android:paddingLeft="5dp"
-            android:paddingTop="5dp"
-            android:paddingRight="5dp"
+            android:padding="5dp"
+            android:inputType="textFilter|textNoSuggestions"
             />
 
     </android.support.design.widget.TextInputLayout>
@@ -62,23 +60,20 @@
         android:id="@+id/input_layout_Number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="10dp">
 
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Mobile Number"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:textSize="18sp"
             android:maxLines="1"
             android:id="@+id/mob"
             android:inputType="number"
             android:background="#ffffb3"
-            android:paddingBottom="5dp"
-            android:paddingLeft="5dp"
-            android:paddingTop="5dp"
-            android:paddingRight="5dp"
+            android:padding="5dp"
             />
 
     </android.support.design.widget.TextInputLayout>
@@ -98,8 +93,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/roundbutton"
-            android:padding="10dp"
-            android:text="Select Date"
+            android:padding="5dp"
+            android:text="Select DOB"
             android:textColor="#ffffff" />
 
 
@@ -131,13 +126,13 @@
             android:maxLines="1"
             android:id="@+id/regEmail"
             android:background="#ffffb3"
-            android:paddingBottom="5dp"
-            android:paddingLeft="5dp"
-            android:paddingTop="5dp"
-            android:paddingRight="5dp"
+            android:padding="5dp"
+            android:inputType="textEmailAddress"
             />
 
     </android.support.design.widget.TextInputLayout>
+
+
 
 
     <android.support.design.widget.TextInputLayout
@@ -157,10 +152,8 @@
             android:id="@+id/regPassword"
             android:inputType="textPassword"
             android:background="#ffffb3"
-            android:paddingBottom="5dp"
-            android:paddingLeft="5dp"
-            android:paddingTop="5dp"
-            android:paddingRight="5dp"
+            android:padding="5dp"
+
             />
 
     </android.support.design.widget.TextInputLayout>
@@ -172,30 +165,32 @@
         android:textSize="10sp"
         android:textColor="#99994d"/>
 
-
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/input_layout_password2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <EditText
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Confirm Password"
-            android:layout_marginTop="20dp"
-            android:textSize="18sp"
-            android:id="@+id/regConfirmPassword"
-            android:inputType="textPassword"
-            android:background="#ffffb3"
-            android:maxLines="1"
-            android:paddingBottom="5dp"
-            android:paddingLeft="5dp"
-            android:paddingTop="5dp"
-            android:paddingRight="5dp"
-            />
+            android:layout_height="wrap_content">
 
-    </android.support.design.widget.TextInputLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:id="@+id/regConfirmPassword"
+                android:inputType="textPassword"
+                android:background="#ffffb3"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:cursorVisible="true"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
 
         <LinearLayout
             android:layout_width="wrap_content"
