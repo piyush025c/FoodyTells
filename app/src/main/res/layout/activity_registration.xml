@@ -162,7 +162,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="(min 8 charecters with atleast 1 digit,1 upper and lower case and 1 special symbol)"
-        android:textSize="10sp"
+        android:textSize="9sp"
         android:textColor="#99994d"/>
 
         <android.support.design.widget.TextInputLayout
